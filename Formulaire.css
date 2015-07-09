@@ -1,0 +1,190 @@
+.label {
+	display: block;
+	width: 500px;
+	background-color: #e6e6e3;
+	font-variant: small-caps;
+	font-size:1.2;
+	vertical-align: top;
+	margin: auto;
+}
+
+}
+input {
+	background-color: #f3f3f3;
+}
+
+fieldset {
+	margin: auto;
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 2px solid black;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+}
+
+input[type=checkbox] {
+	width: 10px;
+}
+
+input[type=text] {
+	width: auto;
+	opacity: 0.9;
+}
+
+input[type=text]:hover {
+	width: auto;
+	opacity: 1;
+}
+
+input[type=password] {
+	width: auto;
+	opacity: 0.9;
+}
+
+input[type=password]:hover {
+	width: auto;
+	opacity: 1;
+}
+
+input[type=date] {
+	width: auto;
+	opacity: 0.9;
+}
+
+input[type=date]:hover {
+	width: auto;
+	opacity: 1;
+}
+
+input[type=email] {
+	width: auto;
+	opacity: 0.9;
+}
+
+input[type=email]:hover {
+	width: auto;
+	opacity: 1;
+}
+
+input[type=tel] {
+	width: auto;
+	opacity: 0.9;
+}
+
+input[type=tel]:hover {
+	width: auto;
+	opacity: 1;
+}
+
+legend {
+	margin: 10px padding: auto;
+	border: 2px solid black;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	background-color: black;
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: white;
+}
+
+[required] {
+	border: 2px dotted red;
+}
+
+.box {
+	background-image:
+		url("C:/Users/adminl/Documents/www.MonSite/Fond_Formulaire.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%; /* Opera 9.5 */
+	-webkit-background-size: 100% 100%; /* Safari 3.0 */
+	background-size: 100% 100%; /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+}
+
+.boxID {
+	background-image:
+		url("C:/Users/adminl/Documents/www.MonSite/Image.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%; /* Opera 9.5 */
+	-webkit-background-size: 100% 100%; /* Safari 3.0 */
+	background-size: 100% 100%; /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+}
+
+.boxCoordonnees {
+	background-image:
+		url("C:/Users/adminl/Documents/www.MonSite/Coordonees.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%; /* Opera 9.5 */
+	-webkit-background-size: 100% 100%; /* Safari 3.0 */
+	background-size: 100% 100%; /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+}
+
+.boxLogin {
+	background-image:
+		url("C:/Users/adminl/Documents/www.MonSite/Finger.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%; /* Opera 9.5 */
+	-webkit-background-size: 100% 100%; /* Safari 3.0 */
+	background-size: 100% 100%; /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+}
+
+.boxPass {
+	background-image:
+		url("C:/Users/adminl/Documents/www.MonSite/Passport2.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%; /* Opera 9.5 */
+	-webkit-background-size: 100% 100%; /* Safari 3.0 */
+	background-size: 100% 100%; /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+}
+
+.boxHobbies {
+	background-image:
+		url("C:/Users/adminl/Documents/www.MonSite/Hobbies3.jpg");
+	background-size: 100% 100%; background-repeat : no-repeat;
+	-moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%; /* Opera 9.5 */
+	-webkit-background-size: 100% 100%; /* Safari 3.0 */
+	background-size: 100% 100%;
+	background-repeat: no-repeat; /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+	
+}
+
+.boxBack {
+	background-image: url("C:/Users/adminl/Documents/www.MonSite/pub.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%; /* Opera 9.5 */
+	-webkit-background-size: 100% 100%; /* Safari 3.0 */
+	background-size: 100% 100%; /* Gecko 2.0 (Firefox 4.0) > CSS3 */
+}
+.WhiteText {
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: white;
+}
+
+.BlackText {
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: black;
+}
+.BlueText {
+	font-size: 1.2em;
+	font-weight: bolder;
+	color: #8585FF;
+}
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Formulaire</title>
+<link rel="stylesheet" href="Formulaire.css">
+</head>
+
+<form method="get" action="http://192.168.1.28:8080/echo/">
+
+	<fieldset class="label box">
+		<legend> Connectez vous</legend>
+		<br>
+		<div>
+			<span class="BlackText"> <label for="Login">Identifiant
+					: </label>&nbsp <input name=Login type="text" required id="Login" /> <br>
+				<label for="Psswd">Mot de Passe : </label>&nbsp<input name=Psswd
+				type="password" required id="MotdePasse" /> &nbsp&nbsp <input
+				type="submit" value="Ok">
+		</div>
+		<br> </span>
+	</fieldset>
+</form>
+<form method="get" action="http://192.168.1.28:8080/echo/">
+	<fieldset class="label boxBack">
+		<legend> Inscrivez-Vous</legend>
+		<br>
+
+		<fieldset class="boxID">
+			<legend>Identité</legend>
+			<br> <span class="BlackText"><label for="Nom">
+					Votre Nom : &nbsp&nbsp<br> <input type="radio" required
+					name="civilite" value="Monsieur" /> Mr. <input type="radio"
+					name="civilite" value="Mademoiselle" /> Mlle <input type="radio"
+					name="civilite" value="Mme" /> Mme
+			</label>&nbsp<input name=nom type="text" required id="Nom" /> <br>
+				</div> <br> <br>
+				<div>
+					<label for="Prenom">Votre Prénom : </label>&nbsp<input name=prenom
+						type="text" required id="Prenom" />
+				</div> <br> <br>
+				<div>
+					<label for="DateNaissance">Date de naissance : </label>&nbsp<input
+						name=Naissance type="date" required id="Date" />
+				</div> <br></span>
+		</fieldset>
+		<br> <br>
+		<fieldset class="boxCoordonnees">
+			<legend>Vos Coordonnées</legend>
+			<span class="BlackText">
+				<div>
+					<label for="Telephone">Telephone : </label>&nbsp <input
+						name=Telephone type="tel" pattern="^[0-9]{10}$" required
+						id="Telephone" />
+				</div> <br> <br>
+				<div>
+					<label for="Portable">Portable : </label>&nbsp<input name=Portable
+						type="tel"
+						pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$"
+						id="Portable" />
+				</div> <br> <br>
+				<div>
+					<label for="Email">Email : </label>&nbsp<input name=user_Email
+						type="email" required id="Email" />
+				</div>
+				<div>
+					<label for="VerificationEmail">Verification : </label>&nbsp<input
+						name=verification_user_Email type="email" required
+						id="Verifiction_Email" />
+				</div>
+			</span>
+		</fieldset>
+
+		</div>
+		<br> <br>
+		<fieldset class="boxLogin">
+			<legend> Choisissez vos Identifiants</legend>
+			<span class="BlackText"> <br> <label for="Login">Identifiant
+					: </label>&nbsp <input name=Login type="text" required id="Login" />
+				</div> <br> <br>
+				<div>
+					<label for="Psswd">Mot de Passe : </label>&nbsp<input name=Psswd
+						type="password" required id="MotdePasse" />
+				</div>
+				<div>
+					<label for="RPsswd"> Confirmation : </label>&nbsp<input name=RPsswd
+						type="password" required id="Confirmation" />
+				</div></span>
+		</fieldset>
+		<br> <br>
+		<div>
+			<fieldset class="boxPass">
+				<form enctype="multipart/form-data" method="post"
+					action="http://192.168.1.28:8080/echo/" target="_blank">
+					<legend>Passeport</legend>
+					<span class="BlackText"> <label for="Passeport">Photocopie
+							du(des) Passeport(s) : <br>
+					</label>&nbsp&nbsp&nbsp<input type="file" multiple="multiple"
+						name=Passeport id="Passeport" /></span>
+			</fieldset>
+		</div>
+		<br> <br>
+		<fieldset class="boxHobbies">
+			<legend>Quels sont vos hobbies?</legend>
+			<span class="BlackText"> <input type="checkbox" name="hobbies"
+				value="Sport" class="space" /> Sport <input type="checkbox"
+				name="hobbies" value="Danse" class="space" /> Danse <input
+				type="checkbox" name="hobbies" value="Musique" class="space" />
+				Musique <input type="checkbox" name="hobbies"
+				value="ActivitéManuelle" class="space" /> Activités manuelles<br>
+				<input type="checkbox" name="hobbies" value="Cinema" class="space" />
+				Cinéma <input type="checkbox" name="hobbies" value="Yoga"
+				class="space" /> Yoga <input type="checkbox" name="hobbies"
+				value="JeuxVideo" class="space" /> Jeux Vidéos <input
+				type="checkbox" name="hobbies" value="Peche" class="space" /> Pêche
+				au gros <br>
+			<input type="checkbox" name="hobbies" value="Litterature"
+				class="space" /> Littérature <input type="checkbox" name="hobbies"
+				value="Speleologie" class="space" /> Spéléologie <br>
+			</span>
+		</fieldset>
+		<br> <br>
+		<div>
+			<input type="submit" value="Identification">&nbsp<input
+				type="reset" value="Annuler">
+		</div>
+
+	</fieldset>
+
+</form>
+
+<datalist id="languages">
+	<option value="Java">JavaJEE</option>
+	<option value="C" />
+	<option value="C++">Modern C++</option>
+	<option value="Python" />
+</datalist>
+
+</body>
+</html>
